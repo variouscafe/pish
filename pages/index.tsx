@@ -6,7 +6,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 import "antd/dist/antd.css";
-import { DatePicker } from "antd";
+// import { DatePicker } from "antd";
 
 const Home: NextPage = () => {
   return (
@@ -22,11 +22,12 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <DatePicker />
+        {/* <DatePicker /> */}
 
         <li>
-          <Link href="/prediction">
-            <a>prediction</a>
+          Router :
+          <Link href="/link">
+            <a>link</a>
           </Link>
         </li>
 
